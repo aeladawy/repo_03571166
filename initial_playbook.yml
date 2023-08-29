@@ -1,0 +1,4 @@
+- name: Deploy the Splunk cluster master
+  hosts: all
+  roles:
+    - namespace_03571166.collection_03571166.cluster_master
